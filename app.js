@@ -40,9 +40,6 @@ app.use(function(err, req, res, next) {
 
 module.exports = app;
 
-app.get('/hello', function(req, res) {
-  res.send('Hello World!');
-})
 
 // expose files under public folder using /static parent path
 // example: localhost:3000/static/stylesheets/style.css
